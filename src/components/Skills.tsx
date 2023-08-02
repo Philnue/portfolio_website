@@ -6,6 +6,8 @@ import Node from '../assets/node.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 
+import PostGresql from "../assets/postgresql.svg"
+
 import Mongo from '../assets/mongo.png';
 import Supabase from '../assets/supabase.png'
 import Python from '../assets/python.png'
@@ -13,7 +15,7 @@ import Flutter from '../assets/flutter.png'
 
 const Skills = () => {
     return (
-        <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div id='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
@@ -42,13 +44,13 @@ const Skills = () => {
                         <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                         <p className='my-4'>GITHUB</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
                         <p className='my-4'>NODE JS</p>
-                    </div>
+                    </div> */}
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                        <p className='my-4'>MONGO DB</p>
+                        <img className='w-20 mx-auto' src={PostGresql} alt="HTML icon" />
+                        <p className='my-4'>PostgreSQL</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />

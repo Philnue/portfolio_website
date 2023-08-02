@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact">
             <p className='w-full bg-[#0a192f] text-gray-300 py-4'>// You can shoot me an email at: philipp@nutline-dev.de</p>
         </div>
         // <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
