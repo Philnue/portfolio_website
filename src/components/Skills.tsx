@@ -2,13 +2,13 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
+
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 
 import PostGresql from "../assets/postgresql.svg"
 
-import Mongo from '../assets/mongo.png';
+
 import Supabase from '../assets/supabase.png'
 import Python from '../assets/python.png'
 import Flutter from '../assets/flutter.png'

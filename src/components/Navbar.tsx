@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import Prof from '../assets/profile.png';
+
 import {
     FaGithub,
     FaLinkedin,
