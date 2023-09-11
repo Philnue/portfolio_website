@@ -1,13 +1,13 @@
 import React from "../assets/react.svg";
 
 export const data = [
-  {
-    id: 1,
-    name: "React JS Application",
-    image: React,
-    github: "",
-    live: "",
-  },
+  // {
+  //   id: 1,
+  //   name: "React JS Application",
+  //   image: React,
+  //   github: "",
+  //   live: "",
+  // },
   // {
   //   id: 2,
   //   name: "React JS Application",
